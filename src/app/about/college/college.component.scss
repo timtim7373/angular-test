@@ -1,0 +1,96 @@
+:host {
+  font-weight: 400;
+
+  .college-description {
+    max-width: 960px;
+  }
+  max-width: 90%;
+  margin: 0 auto;
+}
+.logo-block img {
+  width: 300px;
+}
+.info-header {
+  margin-top: 40px;
+  position: relative;
+  font-weight: 500;
+  h1 {
+    font-size: 36px;
+    color: #000;
+    right: -15px;
+  }
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  a {
+    line-height: 1;
+    font-size: 1.5rem;
+    color: #000;
+    white-space: nowrap;
+    padding-right: 0;
+    padding-left: 0;
+    cursor: pointer;
+  }
+}
+.content-menu {
+  border-bottom: #333 1px solid;
+}
+.active {
+  text-decoration-color: #0000ff;
+}
+.college-description {
+  font-size: 1.4rem;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1165px;
+  }
+}
+@media (min-width: 575px) {
+  .information {
+    padding-top: 20px;
+  }
+  .info-header {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 1200px) {
+  .college-description {
+    padding-right: 20px;
+  }
+  .header-block {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .information {
+    .container {
+      padding: 1rem;
+    }
+  }
+  .college-description {
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info-header {
+    margin-right: 15px;
+    height: auto;
+    h1 {
+      font-size: 28px;
+    }
+    font-weight: 400;
+  }
+  .college-description {
+    padding-left: 15px;
+  }
+}

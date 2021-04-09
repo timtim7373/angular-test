@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="06f7008272f24ea0d1d5e43e95f1446dec0ce857" datatype="html">
+        <source>מידע</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/college/college.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9eae937db3234cd0e6e7ff83bf8723902037ef9" datatype="html">
+        <source>קורסים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/college/college.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f38deb61fd55000a1873e13a3913be3f8d8f95fc" datatype="html">
+        <source>מורים</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/college/college.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08cf52848fb553f447371e33a77c8c8ebf1a818b" datatype="html">
+        <source>אנשי קשר</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/college/college.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
